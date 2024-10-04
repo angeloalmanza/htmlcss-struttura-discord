@@ -1,11 +1,13 @@
+/*RESET*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/*COMMON*/
 /*layout*/
+
+/*HEADER*/
 .header{
     background-color: #00ffff;
 }
@@ -61,7 +63,7 @@
     padding: 20px;
 }
 
-.section-1-2-3-container{
+.section-footer-container{
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
@@ -70,7 +72,7 @@
     min-height: 200px;
 }
 
-.row-section-1-2-3{
+.row-section-footer{
     display: flex;
     /*debug*/
     min-height: 200px;
@@ -78,8 +80,6 @@
 
 .col-60-2{
     width: 60%;
-    display: inline-block;
-    text-align: center;
     /*debug*/
     border: 1px solid #000000;
     background-color:#00bfff ;
@@ -87,14 +87,76 @@
 
 .col-40{
     width: 40%;
-    display: inline-block;
-    text-align: center;
     /*debug*/
     border: 1px solid #000000;
     background-color:#ffc0cb ;
 }
 
-.section-2{
+.section-2-4{
     padding: 20px;
+    /*debug*/
     background-color: #808080;
+}
+
+.section-4-container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color: #008000;
+    min-height: 400px;
+}
+
+
+/*FOOTER*/
+.section-footer{
+    padding: 10px 0 20px 0;
+    /*debug*/
+    background-color: hsl(205.71deg 9.09% 15.1%);
+}
+
+.col-40-2{
+    width: 40%;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color:#ff7f50 ;
+}
+
+.col-15{
+    width: 15%;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color: #008b8b;
+}
+
+.section-footer-2{
+    padding: 20px 0 0 0;
+    /*debug*/
+    background-color: hsl(205.71deg 9.09% 15.1%);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.container-footer-2{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color: #00ffff;
+}
+
+.row-footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.col-10{
+    width: 10%;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color: #ff69b4;
 }
